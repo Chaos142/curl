@@ -1,3 +1,5 @@
 0 - Disabled  
 1 - Remove  
-name.extention - Downloads and runs file
+name.extention - Downloads and runs file  
+  
+kill yourself binwonk
