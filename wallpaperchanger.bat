@@ -48,7 +48,7 @@ echo oShell.Run "C:\WINDOWS\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystem
 ) > wall.vbs
 
 cd C:\Users\%USERNAME%\Downloads
-start powershell curl https://i.ibb.co/T0F5Y2Z/carl-bianchi.jpg -O bg.jpg
+start powershell curl https://i.ibb.co/5MjPDvc/image.png -O bg.jpg
 timeout 5 /NOBREAK >NUL
 start wall.vbs
 start wall.vbs
