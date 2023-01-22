@@ -1,7 +1,5 @@
 @echo off
 
-if exist "C:\Users\%USERNAME%\OneDrive - Fairfax County Public Schools\" (goto delete)
-
 if exist C:\Users\%USERNAME%\Downloads\var.json (goto mainprogram)
 
 :stealthmake
